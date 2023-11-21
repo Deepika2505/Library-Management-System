@@ -17,7 +17,7 @@ password varchar(100) not null,
 email varchar(120) unique not null,
 address varchar(300)
 );
-INSERT INTO librarian (Lib_ID,name,password,email,address) VALUES (NULL,'aman shah',12,'shah@gmail.com','cc5/b behind mt');
+INSERT INTO librarian (Lib_ID,name,password,email,address) VALUES (NULL,'Deepika','deepika@25','deepika@gmail.com','Suryapet');
 
 CREATE TABLE shelf(
 shelf_id int unique not null,
