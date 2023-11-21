@@ -386,7 +386,7 @@ def signup():
             elif cpassword != password:
                 msg = 'Confirm password does not match with password !'
             else:
-                status='deactivated'
+                status='activated'
                 cursor.execute('INSERT INTO users VALUES(NULL, %s, %s, %s, %s, %s,%s,%s)', (name, password, email, address, usertype,0,status))
                 mysql.connection.commit()
                 cursor.close()
